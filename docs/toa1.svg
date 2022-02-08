@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="277.09607mm"
+   height="75.855949mm"
+   viewBox="0 0 277.09607 75.855949"
+   version="1.1"
+   id="svg69044"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="toa1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview69046"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     lock-margins="true"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:zoom="0.69397447"
+     inkscape:cx="422.92622"
+     inkscape:cy="30.980967"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-page="true" />
+  <defs
+     id="defs69041">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path78406" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path78403" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.466706,-140.45367)">
+    <rect
+       style="fill:#ffffff;stroke-width:0.529167"
+       id="rect936"
+       width="277.09607"
+       height="75.855949"
+       x="23.466705"
+       y="140.45367" />
+    <g
+       id="g331241"
+       transform="matrix(1.4200886,0,0,1.4211898,-493.12682,-612.64062)"
+       inkscape:export-filename="C:\Users\Kurt\Downloads\toa1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       style="display:inline;stroke-width:0.703909">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="365.14725"
+         y="536.53406"
+         id="text295943"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan295941"
+           x="365.14725"
+           y="536.53406"
+           style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">TX</tspan></text>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.558727;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 370.72852,535.51383 H 557.49311"
+         id="path295945"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="364.95532"
+         y="564.68652"
+         id="text295949"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan295947"
+           x="364.95532"
+           y="564.68652"
+           style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">RX</tspan></text>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.558903;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 370.72852,563.79863 H 557.4931"
+         id="path295963"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="display:inline;fill:#ff6b80;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect295965"
+         width="100.77817"
+         height="4.109375"
+         x="399.05936"
+         y="535.51385"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="438.21036"
+         y="538.58881"
+         id="text295975"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan295973"
+           x="438.21036"
+           y="538.58881"
+           style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">TX TO ACK TIME</tspan></text>
+      <rect
+         style="display:inline;fill:#9f6bff;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect296017"
+         width="88.378235"
+         height="4.1093717"
+         x="405.24857"
+         y="559.68927"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+         d="m 399.05928,539.6232 6.18928,20.06606"
+         id="path296117" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+         d="m 499.8161,539.44102 -6.18929,20.06606"
+         id="path296119" />
+      <g
+         id="g296127"
+         transform="translate(373.81461,568.47205)"
+         style="stroke-width:0.703909">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.186535;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect296121"
+           width="6.9345779"
+           height="3.2977769"
+           x="24.872017"
+           y="-20.464708" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="25.482513"
+           y="-17.841816"
+           id="text296125"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan296123"
+             x="25.482513"
+             y="-17.841816"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">TOF</tspan></text>
+      </g>
+      <g
+         id="g296135"
+         transform="translate(468.38215,568.28987)"
+         style="stroke-width:0.703909">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.186535;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect296129"
+           width="6.9345779"
+           height="3.2977769"
+           x="24.872017"
+           y="-20.464708" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="25.482513"
+           y="-17.841816"
+           id="text296133"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan296131"
+             x="25.482513"
+             y="-17.841816"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">TOF</tspan></text>
+      </g>
+      <g
+         id="g183721-3-2"
+         transform="translate(286.82465,559.00089)"
+         style="stroke-width:0.703909">
+        <rect
+           style="display:inline;fill:#6bff85;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect181756-0-6"
+           width="8.4108906"
+           height="4.1093717"
+           x="112.23471"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="display:inline;fill:#95fffb;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect60425-1-6-7-2"
+           width="17.258961"
+           height="4.1093717"
+           x="94.975754"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="97.08519"
+           y="-24.507372"
+           id="text60423-9-9-6-8-3-6"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan60421-7-6-51-6-2-2"
+             x="97.08519"
+             y="-24.507372"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">Preamble</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="113.57912"
+           y="-24.522894"
+           id="text181643-4-4"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan181641-6-5"
+             x="113.57912"
+             y="-24.522894"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">SFD</tspan></text>
+        <rect
+           style="display:inline;fill:#fffa6b;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect181756-8-10-4"
+           width="8.4108906"
+           height="4.1093717"
+           x="120.6456"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="display:inline;fill:#ffac6b;fill-opacity:1;stroke:#000000;stroke-width:0.186243;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect181756-8-0-7-3"
+           width="32.557838"
+           height="4.1093717"
+           x="129.05649"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="121.8235"
+           y="-24.521482"
+           id="text181782-9-7"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan181780-6-3"
+             x="121.8235"
+             y="-24.521482"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">PHR</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="142.12512"
+           y="-24.53548"
+           id="text181782-2-6-9"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan181780-3-6-4"
+             x="142.12512"
+             y="-24.53548"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">Data</tspan></text>
+      </g>
+      <g
+         id="g192743-5-5"
+         transform="translate(323.63269,504.12189)"
+         style="stroke-width:0.703909">
+        <rect
+           style="display:inline;fill:#6bff85;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect185830-2-9"
+           width="8.4108906"
+           height="4.1093717"
+           x="81.615875"
+           y="59.676758"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="display:inline;fill:#95fffb;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect185832-2-2"
+           width="17.258961"
+           height="4.1093717"
+           x="64.356918"
+           y="59.676758"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="66.466354"
+           y="62.765793"
+           id="text185836-0-4"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan185834-6-0"
+             x="66.466354"
+             y="62.765793"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">Preamble</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="82.960281"
+           y="62.750271"
+           id="text185840-9-2"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan185838-1-8"
+             x="82.960281"
+             y="62.750271"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">SFD</tspan></text>
+        <rect
+           style="display:inline;fill:#fffa6b;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect185842-0-1"
+           width="8.4108906"
+           height="4.1093717"
+           x="90.026764"
+           y="59.676758"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="display:inline;fill:#ffac6b;fill-opacity:1;stroke:#000000;stroke-width:0.186243;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect185844-2-7"
+           width="32.557838"
+           height="4.1093717"
+           x="98.437653"
+           y="59.676758"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="91.204666"
+           y="62.751682"
+           id="text185848-5-9"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan185846-9-9"
+             x="91.204666"
+             y="62.751682"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">PHR</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="111.50629"
+           y="62.737682"
+           id="text185852-2-1"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan185850-1-8"
+             x="111.50629"
+             y="62.737682"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">Data</tspan></text>
+      </g>
+      <g
+         id="g183721-7-2-8"
+         transform="translate(381.39209,591.39505)"
+         style="stroke-width:0.703909">
+        <rect
+           style="display:inline;fill:#6bff85;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect181756-80-2-9"
+           width="8.4108906"
+           height="4.1093717"
+           x="112.23471"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="display:inline;fill:#95fffb;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect60425-1-6-9-5-6"
+           width="17.258961"
+           height="4.1093717"
+           x="94.975754"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="97.08519"
+           y="-24.507372"
+           id="text60423-9-9-6-8-9-2-1"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan60421-7-6-51-6-7-3-2"
+             x="97.08519"
+             y="-24.507372"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">Preamble</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="113.57912"
+           y="-24.522894"
+           id="text181643-5-5-7"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan181641-0-1-1"
+             x="113.57912"
+             y="-24.522894"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">SFD</tspan></text>
+        <rect
+           style="display:inline;fill:#fffa6b;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect181756-8-1-8-8"
+           width="8.4108906"
+           height="4.1093717"
+           x="120.6456"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="display:inline;fill:#ffac6b;fill-opacity:1;stroke:#000000;stroke-width:0.186243;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect181756-8-0-6-3-4"
+           width="32.557838"
+           height="4.1093717"
+           x="129.05649"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="121.8235"
+           y="-24.521482"
+           id="text181782-8-3-5"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan181780-8-4-4"
+             x="121.8235"
+             y="-24.521482"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">PHR</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="142.33397"
+           y="-24.53548"
+           id="text181782-2-7-1-8"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan181780-3-9-2-5"
+             x="142.33397"
+             y="-24.53548"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">ACK</tspan></text>
+      </g>
+      <g
+         id="g185880-4-8"
+         transform="translate(387.60281,559.00089)"
+         style="stroke-width:0.703909">
+        <rect
+           style="display:inline;fill:#6bff85;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect185856-6-1"
+           width="8.4108906"
+           height="4.1093717"
+           x="112.23471"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="display:inline;fill:#95fffb;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect185858-4-7"
+           width="17.258961"
+           height="4.1093717"
+           x="94.975754"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="97.08519"
+           y="-24.507372"
+           id="text185862-8-0"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan185860-1-4"
+             x="97.08519"
+             y="-24.507372"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">Preamble</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="113.57912"
+           y="-24.522894"
+           id="text185866-2-5"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan185864-2-2"
+             x="113.57912"
+             y="-24.522894"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">SFD</tspan></text>
+        <rect
+           style="display:inline;fill:#fffa6b;fill-opacity:1;stroke:#000000;stroke-width:0.186242;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect185868-5-5"
+           width="8.4108906"
+           height="4.1093717"
+           x="120.6456"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <rect
+           style="display:inline;fill:#ffac6b;fill-opacity:1;stroke:#000000;stroke-width:0.186243;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect185870-6-3"
+           width="32.557838"
+           height="4.1093717"
+           x="129.05649"
+           y="-27.596405"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="121.8235"
+           y="-24.521482"
+           id="text185874-6-3"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan185872-1-4"
+             x="121.8235"
+             y="-24.521482"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">PHR</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="142.33397"
+           y="-24.53548"
+           id="text185878-9-8"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan185876-4-2"
+             x="142.33397"
+             y="-24.53548"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">ACK</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="435.50998"
+         y="562.76422"
+         id="text295975-4"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan295973-6"
+           x="435.50998"
+           y="562.76422"
+           style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">TURNAROUND TIME</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="370.6749"
+         y="581.4682"
+         id="text318901"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan318899"
+           x="370.6749"
+           y="581.4682"
+           style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186242px">TOF = (TX TO ACK TIME - TURNAROUND TIME) / 2</tspan></text>
+    </g>
+  </g>
+</svg>

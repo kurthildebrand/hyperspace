@@ -1,0 +1,16 @@
+if BOARD_MDEK1001
+
+config BOARD_ENABLE_DCDC
+	bool "Enable DCDC mode"
+	select SOC_DCDC_NRF52X
+	default y
+
+config HYPERSPACE
+	bool "Hyperspace routing"
+	default y
+
+config SPIS_IF
+	bool "SPIS Net Interface"
+	default n
+
+endif # BOARD_MDEK1001

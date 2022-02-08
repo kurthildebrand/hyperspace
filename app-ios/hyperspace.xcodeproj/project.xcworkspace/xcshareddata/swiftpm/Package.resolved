@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
+          "version": "5.4.4"
+        }
+      },
+      {
+        "package": "FocusEntity",
+        "repositoryURL": "https://github.com/maxxfrazer/FocusEntity",
+        "state": {
+          "branch": null,
+          "revision": "0c7cfd8b107085244ebfd7a94e99aad60aee5c7b",
+          "version": "2.2.3"
+        }
+      },
+      {
+        "package": "SignalRClient",
+        "repositoryURL": "https://github.com/moozzyk/SignalR-Client-Swift",
+        "state": {
+          "branch": null,
+          "revision": "e70c77151872a4f973fe1c10376980b0db3fa4b2",
+          "version": "0.9.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

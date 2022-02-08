@@ -1,0 +1,153 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build-bootloader",
+			"type": "process",
+			"command": "${workspaceRoot}/bootloader/build-bootloader.cmd",
+			"options": {
+				"cwd": "${workspaceRoot}/bootloader/"
+			},
+			"args": [
+				"${workspaceRoot}"
+			],
+			"problemMatcher": "$gcc",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "build-mesh-root",
+			"type": "process",
+			"command": "${workspaceRoot}/build-and-sign.cmd",
+			"options": {
+				"cwd": "${workspaceRoot}/mesh-root"
+			},
+			"args": [
+				"${workspaceRoot}"
+			],
+			"problemMatcher": "$gcc",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "build-mesh-beacon",
+			"type": "process",
+			"command": "${workspaceRoot}/build-and-sign.cmd",
+			"options": {
+				"cwd": "${workspaceRoot}/mesh-beacon"
+			},
+			"args": [
+				"${workspaceRoot}"
+			],
+			"problemMatcher": "$gcc",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "build-mesh-nonbeacon",
+			"type": "process",
+			"command": "${workspaceRoot}/build-and-sign.cmd",
+			"options": {
+				"cwd": "${workspaceRoot}/mesh-nonbeacon"
+			},
+			"args": [
+				"${workspaceRoot}"
+			],
+			"problemMatcher": "$gcc",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "build-mesh-beacon-test",
+			"type": "process",
+			"command": "${workspaceRoot}/build-and-sign.cmd",
+			"options": {
+				"cwd": "${workspaceRoot}/mesh-beacon-test"
+			},
+			"args": [
+				"${workspaceRoot}"
+			],
+			"problemMatcher": "$gcc",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+
+		/* Tasks for border-router */
+		{
+			"label": "build-border-router",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"build",
+				"${workspaceFolder}/border-router/hyperspace-border-router.csproj",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "publish-border-router",
+			"type": "shell",
+			"dependsOn": "build-border-router",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+			},
+			"options": {
+				"cwd": "${workspaceFolder}/border-router"
+			},
+			"windows": {
+				"command": "${workspaceFolder}/border-router/publish.bat"
+			},
+			"problemMatcher": []
+		},
+
+		/* Tasks for hypertun */
+		{
+			"label": "build-hypertun",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"build",
+				"${workspaceFolder}/hypertun/hypertun.csproj",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "publish-hypertun",
+			"type": "shell",
+			"dependsOn": "build-hypertun",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+			},
+			"options": {
+				"cwd": "${workspaceFolder}/hypertun"
+			},
+			"windows": {
+				"command": "${workspaceFolder}/hypertun/publish.bat"
+			},
+			"problemMatcher": []
+		},
+	]
+}

@@ -1,0 +1,70 @@
+bin/
+obj/
+build/
+docs/*.png
+.vscode/ipch/
+.vscode/.cortex-debug.peripherals.state.json
+.vscode/.cortex-debug.registers.state.json
+*.depend
+*.layout
+*.out
+.DS_Store
+gcc-arm-10.3-2021.07-mingw-w64-i686-arm-none-linux-gnueabihf/
+node_modules
+*.notes
+*.bin
+*.hex
+*.elf
+
+
+# Xcode / Swift -------------------------------------------------------------------------------------
+### Xcode ###
+/*.gcno
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+### CocoaPods ###
+Pods/
+
+### Swift ###
+## User settings
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+.build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+iOSInjectionProject/
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace

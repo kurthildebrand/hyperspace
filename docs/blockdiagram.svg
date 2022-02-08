@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="117.08768mm"
+   height="163.32507mm"
+   viewBox="0 0 117.08768 163.32507"
+   version="1.1"
+   id="svg69645"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="blockdiagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview69647"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     lock-margins="true"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:zoom="1.3879489"
+     inkscape:cx="222.27043"
+     inkscape:cy="367.80892"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-page="true" />
+  <defs
+     id="defs69642">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-2-1-7-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18173-5-5-4-13" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-41-8-5-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18176-2-6-2-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-2-1-7-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18173-5-5-4-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-41-8-5-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18176-2-6-2-3" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.791284,-77.630973)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.529167;fill-opacity:1"
+       id="rect950"
+       width="117.08768"
+       height="163.32507"
+       x="63.791283"
+       y="77.630974" />
+    <g
+       id="g45965"
+       style="display:inline;stroke-width:0.703117"
+       transform="matrix(1.4228978,0,0,1.4215799,-429.24474,462.41474)">
+      <path
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186326;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-2-1-7-9);marker-end:url(#Arrow1Mend-41-8-5-8)"
+         d="m 372.02577,-184.41779 v 8.31572"
+         id="path55376-6-4-67"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186326;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart-2-1-7-2);marker-end:url(#Arrow1Mend-41-8-5-1)"
+         d="M 415.04539,-167.39758 H 385.60438"
+         id="path55376-6-4-6"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="g188816"
+         style="stroke-width:0.703117">
+        <rect
+           style="fill:#ffbe9c;fill-opacity:1;stroke:#000000;stroke-width:0.372066;stroke-opacity:1"
+           id="rect16340"
+           width="25.631145"
+           height="15.808991"
+           x="359.21024"
+           y="-175.30208" />
+        <g
+           id="g20226"
+           transform="translate(17.919513,-29.747096)"
+           style="stroke-width:0.703117">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="354.02374"
+             y="-138.89284"
+             id="text16316"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan16314"
+               x="354.02374"
+               y="-138.89284"
+               style="font-weight:bold;font-size:2.82223px;text-align:center;text-anchor:middle;stroke-width:0.186033px">Border Router</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="354.12604"
+             y="-134.77689"
+             id="text17710"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan17708"
+               x="354.12604"
+               y="-134.77689"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Public Sans';-inkscape-font-specification:'Public Sans';text-align:center;text-anchor:middle;stroke-width:0.186033px">(Raspberry Pi)</tspan></text>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="373.7243"
+         y="-179.22559"
+         id="text20555-5"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan20553-5"
+           x="373.7243"
+           y="-179.22559"
+           style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186033px">SPI</tspan></text>
+      <g
+         id="g188824"
+         style="stroke-width:0.703117">
+        <rect
+           style="fill:#fff794;fill-opacity:1;stroke:#000000;stroke-width:0.371949;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect20551"
+           width="20.76684"
+           height="7.9512677"
+           x="361.6424"
+           y="-193.16904" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="364.83762"
+           y="-188.15906"
+           id="text20555"
+           inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan20553"
+             x="364.83762"
+             y="-188.15906"
+             style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186033px">Mesh Root</tspan></text>
+        <g
+           id="g24666"
+           transform="translate(6.9690527,5.1449383)"
+           style="stroke-width:0.703117">
+          <path
+             style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 355.10509,-205.22666 1.76654,2.63506 1.76654,-2.63506 z"
+             id="path23969" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 356.87164,-205.22666 v 6.93607"
+             id="path24266"
+             sodipodi:nodetypes="cc" />
+        </g>
+      </g>
+      <g
+         id="g129722"
+         transform="translate(87.642706,60.146901)"
+         style="stroke-width:0.703117">
+        <g
+           id="g129066"
+           transform="rotate(22.522658,271.87138,-487.13016)"
+           style="stroke-width:0.703117">
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 362.78234,-279.19213 -27.59556,-31.1744"
+             id="path40312" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 365.30803,-323.46274 -2.52569,44.27061"
+             id="path40314" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 390.00373,-302.13463 -27.22139,22.9425"
+             id="path40316" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 335.18678,-310.36653 30.12125,-13.09621"
+             id="path40318" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 390.00373,-302.13463 -24.6957,-21.32811"
+             id="path40320" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 384.76525,-343.10704 -19.45722,19.6443"
+             id="path40322" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 390.00373,-302.13463 -5.23848,-40.97241"
+             id="path40324" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 342.85739,-345.7263 41.90786,2.61926"
+             id="path40326" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="M 365.30803,-323.46274 342.85739,-345.7263"
+             id="path40328" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.372066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.372066,0.744132;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 335.18678,-310.36653 7.67061,-35.35977"
+             id="path40330" />
+        </g>
+        <g
+           id="g113421-4"
+           transform="translate(-26.113863,-43.479786)"
+           style="display:inline;stroke-width:0.703117">
+          <rect
+             style="display:inline;fill:#deff79;fill-opacity:1;stroke:#000000;stroke-width:0.371949;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect113409-4"
+             width="20.76684"
+             height="7.9512677"
+             x="334.04681"
+             y="-220.60167" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="336.82224"
+             y="-215.59169"
+             id="text113413-4"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan113411-9"
+               x="336.82224"
+               y="-215.59169"
+               style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186033px">Mesh Node</tspan></text>
+          <g
+             id="g113419-4"
+             transform="translate(-20.626531,-22.28769)"
+             style="display:inline;stroke-width:0.703117">
+            <path
+               style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 355.10509,-205.22666 1.76654,2.63506 1.76654,-2.63506 z"
+               id="path113415-4" />
+            <path
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 356.87164,-205.22666 v 6.93607"
+               id="path113417-1"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+        <g
+           id="g113421-2"
+           transform="translate(-40.756269,-72.640818)"
+           style="display:inline;stroke-width:0.703117">
+          <rect
+             style="display:inline;fill:#7fcdec;fill-opacity:1;stroke:#000000;stroke-width:0.371949;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect113409-6"
+             width="20.76684"
+             height="7.9512677"
+             x="334.04681"
+             y="-220.60167" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="336.82224"
+             y="-215.59169"
+             id="text113413-1"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan113411-6"
+               x="336.82224"
+               y="-215.59169"
+               style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186033px">Mesh Node</tspan></text>
+          <g
+             id="g113419-2"
+             transform="translate(-20.626531,-22.28769)"
+             style="display:inline;stroke-width:0.703117">
+            <path
+               style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 355.10509,-205.22666 1.76654,2.63506 1.76654,-2.63506 z"
+               id="path113415-7" />
+            <path
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 356.87164,-205.22666 v 6.93607"
+               id="path113417-8"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+        <g
+           id="g113421-3"
+           transform="translate(-15.258363,-83.333747)"
+           style="display:inline;stroke-width:0.703117">
+          <rect
+             style="display:inline;fill:#b6aafe;fill-opacity:1;stroke:#000000;stroke-width:0.371949;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect113409-8"
+             width="20.76684"
+             height="7.9512677"
+             x="334.04681"
+             y="-220.60167" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="336.82224"
+             y="-215.59169"
+             id="text113413-6"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan113411-7"
+               x="336.82224"
+               y="-215.59169"
+               style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186033px">Mesh Node</tspan></text>
+          <g
+             id="g113419-5"
+             transform="translate(-20.626531,-22.28769)"
+             style="display:inline;stroke-width:0.703117">
+            <path
+               style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 355.10509,-205.22666 1.76654,2.63506 1.76654,-2.63506 z"
+               id="path113415-9" />
+            <path
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 356.87164,-205.22666 v 6.93607"
+               id="path113417-6"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+        <g
+           id="g113421-9"
+           transform="translate(-73.596602,-72.081388)"
+           style="display:inline;stroke-width:0.703117">
+          <rect
+             style="display:inline;fill:#7fffcd;fill-opacity:1;stroke:#000000;stroke-width:0.371949;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect113409-3"
+             width="20.76684"
+             height="7.9512677"
+             x="334.04681"
+             y="-220.60167" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="336.82224"
+             y="-215.59169"
+             id="text113413-7"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan113411-2"
+               x="336.82224"
+               y="-215.59169"
+               style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186033px">Mesh Node</tspan></text>
+          <g
+             id="g113419-0"
+             transform="translate(-20.626531,-22.28769)"
+             style="display:inline;stroke-width:0.703117">
+            <path
+               style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 355.10509,-205.22666 1.76654,2.63506 1.76654,-2.63506 z"
+               id="path113415-77" />
+            <path
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 356.87164,-205.22666 v 6.93607"
+               id="path113417-19"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+        <g
+           id="g113421-0"
+           transform="translate(-52.966528,-101.80598)"
+           style="display:inline;stroke-width:0.703117">
+          <rect
+             style="display:inline;fill:#f68ad9;fill-opacity:1;stroke:#000000;stroke-width:0.371949;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect113409-2"
+             width="20.76684"
+             height="7.9512677"
+             x="334.04681"
+             y="-220.60167" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="336.82224"
+             y="-215.59169"
+             id="text113413-5"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan113411-60"
+               x="336.82224"
+               y="-215.59169"
+               style="font-weight:bold;font-size:2.82223px;text-align:start;text-anchor:start;stroke-width:0.186033px">Mesh Node</tspan></text>
+          <g
+             id="g113419-6"
+             transform="translate(-20.626531,-22.28769)"
+             style="display:inline;stroke-width:0.703117">
+            <path
+               style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 355.10509,-205.22666 1.76654,2.63506 1.76654,-2.63506 z"
+               id="path113415-97" />
+            <path
+               style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 356.87164,-205.22666 v 6.93607"
+               id="path113417-2"
+               sodipodi:nodetypes="cc" />
+          </g>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="400.32419"
+         y="-168.75162"
+         id="text161125"
+         inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan161123"
+           x="400.32419"
+           y="-168.75162"
+           style="font-weight:bold;font-size:2.82223px;text-align:center;text-anchor:middle;stroke-width:0.186033px">LAN / WLAN</tspan></text>
+      <g
+         id="g188808"
+         transform="translate(-11.121989)"
+         style="stroke-width:0.703117">
+        <rect
+           style="display:inline;fill:#ff9d9a;fill-opacity:1;stroke:#000000;stroke-width:0.372066;stroke-opacity:1"
+           id="rect16340-7"
+           width="11.343646"
+           height="20.042324"
+           x="426.97626"
+           y="-177.41875"
+           ry="1.3493643"
+           rx="1.3481144" />
+        <g
+           id="g161301"
+           transform="translate(78.395728,-29.747097)"
+           style="stroke-width:0.703117">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="354.02374"
+             y="-138.89284"
+             id="text161295"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan161293"
+               x="354.02374"
+               y="-138.89284"
+               style="font-weight:bold;font-size:2.82223px;text-align:center;text-anchor:middle;stroke-width:0.186033px">Phone</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:125%;font-family:'Public Sans';-inkscape-font-specification:'Public Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.186033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="354.05621"
+             y="-134.77689"
+             id="text161299"
+             inkscape:export-filename="C:\Users\Kurt\Downloads\g20317-6.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               sodipodi:role="line"
+               id="tspan161297"
+               x="354.05621"
+               y="-134.77689"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82223px;font-family:'Public Sans';-inkscape-font-specification:'Public Sans Bold';text-align:center;text-anchor:middle;stroke-width:0.186033px">App</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

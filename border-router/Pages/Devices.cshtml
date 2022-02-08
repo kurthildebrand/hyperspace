@@ -1,0 +1,31 @@
+@page
+@model DevicesModel
+@{
+    ViewData["Title"] = 
+	"Devices page";
+}
+
+<script type="module" src="~/dist/devices.entry.js"></script>
+
+<div id="dropzone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);" class="text-center">
+	<h1 class="display-4">Devices</h1>
+
+	<table id="devices-table" class="table">
+		<thead>
+			<tr>
+				<th>IP Address</th>
+				<th>Last Updated</th>
+				<th>R</th>
+				<th>T</th>
+				<th>Sequence</th>
+				<th><button id="update-all-btn">Update All</button></th>
+			</tr>
+		</thead>
+		<tbody>
+
+		</tbody>
+	</table>
+</div>
+
+@* <script src="~/js/signalr/dist/browser/signalr.js"></script> *@
+@* <script src="~/js/devices.js"></script> *@

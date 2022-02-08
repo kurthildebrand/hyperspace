@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>Hyperspace</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- <RuntimeIdentifier>linux-arm</RuntimeIdentifier>
+		<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+		<PublishSingleFile>true</PublishSingleFile>
+		<PublishTrimmed>true</PublishTrimmed>
+		<SelfContained>true</SelfContained>
+		<PublishReadyToRun>true</PublishReadyToRun> -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CoAP.NET.Core" Version="1.1.0" />
+		<PackageReference Include="MathNet.Numerics" Version="4.15.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+		<PackageReference Include="NetTopologySuite.IO.GeoJSON4STJ" Version="2.1.1" />
+		<PackageReference Include="Npgsql" Version="6.0.1" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.1" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="6.0.1" />
+		<PackageReference Include="Npgsql.NetTopologySuite" Version="6.0.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+	</ItemGroup>
+
+	<!-- <ItemGroup>
+		<ContentWithTargetPath Include="worldmap/calib.json" TargetPath="worldmap/calib.json" CopyToOutputDirectory="PreserveNewest" />
+		<ContentWithTargetPath Include="worldmap/worldmap.ios" TargetPath="worldmap/worldmap.ios" CopyToOutputDirectory="PreserveNewest" />
+		<ContentWithTargetPath Include="worldmap/worldmap.obj" TargetPath="worldmap/worldmap.obj" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup> -->
+
+	<!-- Override the default behavior which aggressively copies json files to the output
+	     directory -->
+	<!-- <ItemGroup>
+		<Content Update="worldmap/calib.json" CopyToOutputDirectory="Never" CopyToPublishDirectory="Never" />
+	</ItemGroup> -->
+
+	<Target Name="wwwroot" BeforeTargets="PreBuildEvent">
+		<Exec Command="npm run build"/>
+	</Target>
+
+	<ItemGroup>
+		<ProjectReference Include="..\hypertun\hypertun.csproj" />
+	</ItemGroup>
+
+</Project>

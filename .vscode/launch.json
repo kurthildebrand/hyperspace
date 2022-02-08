@@ -1,0 +1,224 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch border-router (Remote)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "publish-border-router",
+			"program": "/usr/share/dotnet/dotnet",
+			"args": [
+				"/home/pi/hyperspace/border-router/hyperspace-border-router.dll"
+			],
+			"cwd": "/home/pi/hyperspace/border-router/",
+			"stopAtEntry": false,
+			"console": "internalConsole",
+			"pipeTransport": {
+				"pipeCwd": "${workspaceFolder}\\border-router",
+				"pipeProgram": "ssh",
+				"pipeArgs": [
+					"pi@raspberrypi"
+				],
+				"debuggerPath": "/home/pi/vsdbg/vsdbg"
+			},
+			"env": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			}
+		},
+		{
+			"name": "Launch bootloader",
+			"cwd": "${workspaceRoot}/bootloader",
+			"executable": "${workspaceRoot}/bootloader/build/zephyr/zephyr.elf",
+			"preLaunchTask": "build-bootloader",
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype":"jlink",
+			"device":"nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/zephyrproject/modules/hal/nordic/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			"showDevDebugOutput": false,
+		},
+		{
+			"name": "Launch mesh-root",
+			"cwd": "${workspaceRoot}/mesh-root/build",
+			"executable": "${workspaceRoot}/mesh-root/build/zephyr/mesh-root.signed.hex",
+			"preLaunchTask": "build-mesh-root",
+			"preLaunchCommands": [
+				// "add-symbol-file C:/hyperspace/bootloader/build/zephyr/zephyr.elf 0x00000000",
+				"add-symbol-file C:/hyperspace/mesh-root/build/zephyr/mesh-root.elf 0x0000C000"
+			],
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "jlink",
+			"device": "nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/zephyrproject/modules/hal/nordic/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			"serialNumber": "760030443"
+		},
+		{
+			"name": "Launch mesh-beacon-1",
+			"cwd": "${workspaceRoot}/mesh-beacon/build",
+			"executable": "${workspaceRoot}/mesh-beacon/build/zephyr/mesh-beacon.signed.hex",
+			"preLaunchTask": "build-mesh-beacon",
+			"preLaunchCommands": [
+				// "add-symbol-file C:/hyperspace/bootloader/build/zephyr/zephyr.elf 0x00000000",
+				"add-symbol-file C:/hyperspace/mesh-beacon/build/zephyr/mesh-beacon.elf 0x0000C000"
+			],
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "jlink",
+			"device": "nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			"serialNumber": "760031002"
+		},
+		{
+			"name": "Launch mesh-beacon-2",
+			"cwd": "${workspaceRoot}/mesh-beacon/build",
+			"executable": "${workspaceRoot}/mesh-beacon/build/zephyr/mesh-beacon.signed.hex",
+			"preLaunchTask": "build-mesh-beacon",
+			"preLaunchCommands": [
+				// "add-symbol-file C:/hyperspace/bootloader/build/zephyr/zephyr.elf 0x00000000",
+				"add-symbol-file C:/hyperspace/mesh-beacon/build/zephyr/mesh-beacon.elf 0x0000C000"
+			],
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "jlink",
+			"device": "nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			"serialNumber": "760031018"
+		},
+		{
+			"name": "Launch mesh-beacon-3",
+			"cwd": "${workspaceRoot}/mesh-beacon/build",
+			"executable": "${workspaceRoot}/mesh-beacon/build/zephyr/mesh-beacon.signed.hex",
+			"preLaunchTask": "build-mesh-beacon",
+			"preLaunchCommands": [
+				// "add-symbol-file C:/hyperspace/bootloader/build/zephyr/zephyr.elf 0x00000000",
+				"add-symbol-file C:/hyperspace/mesh-beacon/build/zephyr/mesh-beacon.elf 0x0000C000"
+			],
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "jlink",
+			"device": "nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			//// "serialNumber": "760053553"
+			// "serialNumber": "760028962"
+			"serialNumber": "760031342"
+		},
+		{
+			"name": "Launch mesh-beacon-4",
+			"cwd": "${workspaceRoot}/mesh-beacon/build",
+			"executable": "${workspaceRoot}/mesh-beacon/build/zephyr/mesh-beacon.signed.hex",
+			"preLaunchTask": "build-mesh-beacon",
+			"preLaunchCommands": [
+				// "add-symbol-file C:/hyperspace/bootloader/build/zephyr/zephyr.elf 0x00000000",
+				"add-symbol-file C:/hyperspace/mesh-beacon/build/zephyr/mesh-beacon.elf 0x0000C000"
+			],
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "jlink",
+			"device": "nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			"serialNumber": "760031335"
+		},
+		{
+			"name": "Launch mesh-beacon-5",
+			"cwd": "${workspaceRoot}/mesh-beacon/build",
+			"executable": "${workspaceRoot}/mesh-beacon/build/zephyr/mesh-beacon.signed.hex",
+			"preLaunchTask": "build-mesh-beacon",
+			"preLaunchCommands": [
+				// "add-symbol-file C:/hyperspace/bootloader/build/zephyr/zephyr.elf 0x00000000",
+				"add-symbol-file C:/hyperspace/mesh-beacon/build/zephyr/mesh-beacon.elf 0x0000C000"
+			],
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "jlink",
+			"device": "nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			"serialNumber": "760032203"
+		},
+		{
+			"name": "Launch mesh-nonbeacon",
+			"cwd": "${workspaceRoot}/mesh-nonbeacon/build",
+			"executable": "${workspaceRoot}/mesh-nonbeacon/build/zephyr/mesh-nonbeacon.signed.hex",
+			"preLaunchTask": "build-mesh-nonbeacon",
+			"preLaunchCommands": [
+				// "add-symbol-file C:/hyperspace/bootloader/build/zephyr/zephyr.elf 0x00000000",
+				"add-symbol-file C:/hyperspace/mesh-nonbeacon/build/zephyr/mesh-nonbeacon.elf 0x0000C000"
+			],
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "jlink",
+			"device": "nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			// "serialNumber": "760053553"
+			"serialNumber": "760032203"
+		},
+		{
+			"name": "Launch mesh-beacon-test-3",
+			"cwd": "${workspaceRoot}/mesh-beacon-test/build",
+			"executable": "${workspaceRoot}/mesh-beacon-test/build/zephyr/mesh-beacon-test.signed.hex",
+			"preLaunchTask": "build-mesh-beacon-test",
+			"preLaunchCommands": [
+				// "add-symbol-file C:/hyperspace/bootloader/build/zephyr/zephyr.elf 0x00000000",
+				"add-symbol-file C:/hyperspace/mesh-beacon-test/build/zephyr/mesh-beacon-test.elf 0x0000C000"
+			],
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "jlink",
+			"device": "nRF52832_xxAA",
+			"svdFile": "${workspaceRoot}/nrfx/mdk/nrf52.svd",
+			"interface": "swd",
+			"runToMain": true,
+			"ipAddress": null,
+			"serialNumber": "760053553"
+			// "serialNumber": "760028962"
+		},
+		{
+			"name": "Launch hypertun (Remote)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "publish-hypertun",
+			"program": "/usr/share/dotnet/dotnet",
+			"args": [
+				"/home/pi/hyperspace/hypertun/hypertun.dll"
+			],
+			"cwd": "/home/pi/hyperspace/hypertun/",
+			"stopAtEntry": false,
+			"console": "internalConsole",
+			"pipeTransport": {
+				"pipeCwd": "${workspaceFolder}\\hypertun",
+				"pipeProgram": "ssh",
+				"pipeArgs": [
+					"pi@raspberrypi"
+				],
+				"debuggerPath": "/home/pi/vsdbg/vsdbg"
+			}
+		}
+	]
+}

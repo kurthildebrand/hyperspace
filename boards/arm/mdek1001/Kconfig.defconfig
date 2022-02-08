@@ -1,0 +1,9 @@
+if BOARD_MDEK1001
+
+config BOARD
+	default "mdek1001"
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_MDEK1001

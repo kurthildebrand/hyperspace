@@ -1,0 +1,3 @@
+config BOARD_MDEK1001
+	bool "Decawave MDEK1001"
+	depends on SOC_NRF52832_QFAA
