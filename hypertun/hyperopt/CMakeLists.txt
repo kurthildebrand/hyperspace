@@ -30,30 +30,11 @@ target_link_options(${PROJECT_NAME} PRIVATE
 
 target_include_directories(${PROJECT_NAME} PRIVATE
 	./
-	../../mistlib/algorithms/
-	../../mistlib/net/
-	../../mistlib/net/ip/
-	../../mistlib/types/
 )
 
 target_sources(${PROJECT_NAME} PRIVATE
 	hyperopt.c
-	../../../mistlib/algorithms/byteorder.c
-	../../../mistlib/algorithms/calc.c
-	../../../mistlib/types/buffer.c
-	../../../mistlib/types/key.c
-	../../../mistlib/types/linked.c
-	../../../mistlib/net/ip/ipv6.c
 )
 
-# target_link_libraries(${PROJECT_NAME} PRIVATE mistlib)
-
-# add_subdirectory(../../../mistlib)
-
-# target_sources(${PROJECT_NAME} PRIVATE
-# 	buffer.c
-# 	byteorder.c
-# 	ipv6.c
-# 	key.c
-# 	hyperopt.c
-# )
+add_subdirectory(../../mistlib mistlib)
+target_link_libraries(hyperopt mistlib)
