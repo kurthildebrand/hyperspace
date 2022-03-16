@@ -41,19 +41,28 @@ Ultra Wide Bandwidth (UWB) radios are used because they provide accurate time me
 
 This mesh uses the Time Slotted Channel Hopping (TSCH) MAC[^2] which is also specified in IEEE 802.15.4. TSCH divides time into equally sized slots. Slots are sized so that one packet can be transmitted and one acknowledgment can be received (if necessary) per slot. Each slot is numbered by an Absolute Slot Number (ASN). The local TSCH network synchronizes on the ASN. Each slot can also have a channel offset. Each slot in the TSCH schedule can be either a TX and/or an RX slot. Furthermore, each slot could be dedicated (one node to one node) or shared (one node to many). Typically, shared slots require some form of transmission backoff in the case of collisions.
 
-![](tsch.svg)
-*Example TSCH schedule. Columns are labeled with Absolute Slot Number (ASN). Rows are labeled with the channel.*
+<p align="center">
+	<img src="tsch.svg" alt="Example TSCH schedule. Columns are labeled with Absolute Slot Number (ASN). Rows are labeled with the channel.">
+	<br>
+	<sub><em>Example TSCH schedule. Columns are labeled with Absolute Slot Number (ASN). Rows are labeled with the channel.</em></sub>
+</p>
 
 The TSCH schedule consists of slotframes (SF) specified by an ID and a length in number of slots. Slotframes can be added, removed, and modified while the network is running. Likewise, slots can be added, removed, modified to a specific slotframe while the network is running. All slotframes are aligned to timeslot boundaries and ASN 0 is the first repetition of every slotframe.
 
-![](multiple-sf.svg)
-*Example TSCH schedule with 2 slotframes (SF). SF 0 has 5 slots. SF 1 has 3 slots. If occupied slots in multiple slotframes land on the same ASN, the slotframe with the ID closer to 0 takes precedence. ASN 0 is the first slot in every slotframe.*
+<p align="center">
+	<img src="multiple-sf.svg">
+	<br>
+	<sub><em>Example TSCH schedule with 2 slotframes (SF). SF 0 has 5 slots. SF 1 has 3 slots. If occupied slots in multiple slotframes land on the same ASN, the slotframe with the ID closer to 0 takes precedence. ASN 0 is the first slot in every slotframe.</em></sub>
+</p>
 
 If two slotframes have two slots in the same position, the slotframe with the smaller ID (closer to 0) takes precedence.
 
 ## TSCH Schedule
-![](tsch-sf.svg)
-*TSCH schedule for this mesh network. SF 0 is for basic connectivity. SF 1 is for location updates.*
+<p align="center">
+	<img src="tsch-sf.svg">
+	<br>
+	<sub><em>TSCH schedule for this mesh network. SF 0 is for basic connectivity. SF 1 is for location updates.</em></sub>
+</p>
 
 The schedule for this mesh network consists of two slotframes of equal length. The schedule is identical for all nodes in the network.
 
@@ -67,8 +76,11 @@ SF1 slots 2, 12, 22, 32, are location slots used for updating nodes’ location 
 
 TSCH slots are sized so that one packet can be transmitted and an acknowledgment can be received. Here are the specifics for this implementation:
 
-![](ideal-shared-slot-timing.svg)
-*Timing of transmissions in one slot. The length of the slot is long enough for one packet to be transmitted and one ack to be received.*
+<p align="center">
+	<img src="ideal-shared-slot-timing.svg">
+	<br>
+	<sub><em>Timing of transmissions in one slot. The length of the slot is long enough for one packet to be transmitted and one ack to be received.</em></sub>
+</p>
 
 Each slot is 2500 microseconds long. This is a deviation from the IEEE 802.15.4 standard which recommends 10ms slot lengths. 2500 microseconds was chosen because the UWB PHY transmits at a much higher rate than the 2.4 GHz PHY assumed by TSCH as specified in IEEE 802.15.4. Therefore 10ms is unnecessarily long for UWB. Furthermore, 2500 microseconds evenly divides into 10ms so that the UWB TSCH schedule could coexist with a 2.4 GHz TSCH.
 
@@ -78,8 +90,11 @@ Another implementation detail is that the receiving node adds the turnaround tim
 
 TSCH was chosen as the MAC because of its inherent time synchronization capabilities. The largest power draw of this mesh network is the wireless communication. Power can be minimized by turning on the radio at just the right time. Therefore, clocks must be synchronized. However clocks drift. TSCH solves this by 1.) incorporating an RX guard period and 2.) resynchronizing the TX and RX nodes.
 
-![](rx-delayed-shared-slot-timing.svg)
-*TSCH slot showing resynchronization.*
+<p align="center">
+	<img src="rx-delayed-shared-slot-timing.svg">
+	<br>
+	<sub><em>TSCH slot showing resynchronization.</em></sub>
+</p>
 
 The figure above shows an example where the RX node’s clock is slightly slower than the TX node. Therefore the RX node starts the slot slightly later than the TX node. However, there is enough guard time that the RX node is still able to receive the data packet. The receiving node recomputes the start of the slot (★) once the data packet has arrived and thus resynchronizes to the TX node. The rest of the slot proceeds as normal. Notice that the start of the slot for the RX node (★) is slightly delayed to account for the time of flight from the TX node. This delay is exaggerated in the figure. For reference, 1us = about 300m and the expected distance between nodes is on the order of 5-10m maximum.
 

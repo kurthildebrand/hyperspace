@@ -37,21 +37,30 @@ Each node verifies that a beacon is within its neighborhood. Because of the size
 
 However, the moved beacon itself needs to detect that it has an incorrect location. Therefore, a majority system is used to determine if a node’s location is incorrect. If the majority of the surrounding beacons report a non-local location, then a node should determine that it has an inaccurate location.
 
-![](large-error.svg)
-*Example of large error. Beacon 4 has moved and reports a far away location. Beacons 0,1,2,3 recognize that 4’s location is not within the local neighborhood and ignore beacon 4. Beacon 4 recognizes that it has an inconsistent location by determining that the majority of its neighbors now report a non-local neighborhood. Beacon 4 must recalculate it’s location. Non-local beacons are beacons roughly outside the indicated circle.*
+<p align="center">
+	<img src="large-error.svg">
+	<br>
+	<sub><em>Example of large error. Beacon 4 has moved and reports a far away location. Beacons 0,1,2,3 recognize that 4’s location is not within the local neighborhood and ignore beacon 4. Beacon 4 recognizes that it has an inconsistent location by determining that the majority of its neighbors now report a non-local neighborhood. Beacon 4 must recalculate it’s location. Non-local beacons are beacons roughly outside the indicated circle.</em></sub>
+</p>
 
 Another source of errors is if a beacon is moved slightly so that the reported location differs from the actual location. This can be detected by checking that the measured distances roughly match the distances between reported locations. If the majority of the measured distances are within 0.3 of the expected distances between reported locations, then the beacon’s location is deemed incorrect and that beacon is ignored. In this case, the moved beacon updates its location as normal so the beacon’s location estimate should converge to the actual location eventually.
 
 Note: the above values, √3*R for a local neighborhood and 0.3 for expected locations, are roughly chosen and could change with future testing.
 
-![](small-error.svg)
-*Example of small error. Beacon 1’s actual location is >0.3 from it’s reported location. Beacons 0,2,3 ignore Beacon 1.*
+<p align="center">
+	<img src="small-error.svg">
+	<br>
+	<sub><em>Example of small error. Beacon 1’s actual location is >0.3 from it’s reported location. Beacons 0,2,3 ignore Beacon 1.</em></sub>
+</p>
 
 ## Dilution Of Precision (DOP)
 Dilution of Precision occurs when the geometry of the beacons degrades the accuracy of the location measurement. DOP affects TOA to an extent, but is extremely pronounced in TDOA, especially when the distance between beacons is small. Errors in measuring difference of distances can be represented by superimposed hyperbolas forming an area. As the node’s actual location moves further away from the location beacons, the node moves further into an ever expanding area of uncertainty. Therefore a node needs to be located in a region bounded by beacons in order to accurately determine its location. This effect is extremely pronounced such that a node cannot determine its location even if it is located just barely outside a beacon bounded region.
 
-![](dop.svg)
-*Dilution of precision. Notice that the intersection of the two noisy hyperbolas is larger on the right. In practice, DOP is more extreme than illustrated in this example to the point that location cannot be computed outside an area bounded by beacons. (Left) Accurate location measurement. Node 4 is inside the area bounded by beacons 0,1,2,3. (Right) Inaccurate location measurement. Node 4 is outside the area bounded by beacons 0,1,2,3.*
+<p align="center">
+	<img src="dop.svg">
+	<br>
+	<sub><em>Dilution of precision. Notice that the intersection of the two noisy hyperbolas is larger on the right. In practice, DOP is more extreme than illustrated in this example to the point that location cannot be computed outside an area bounded by beacons. (Left) Accurate location measurement. Node 4 is inside the area bounded by beacons 0,1,2,3. (Right) Inaccurate location measurement. Node 4 is outside the area bounded by beacons 0,1,2,3.</em></sub>
+</p>
 
 If a node is trying to compute its location via TDOA it’s possible that the location is inaccurate. However, the node can detect if its location estimate is inaccurate and can try and remedy the problem by measuring the distance to the prime beacon outside of the location slot. Note: in order to turn TDOA into TOA, just the distance to the prime beacon, in this case d_04 is needed.
 ```

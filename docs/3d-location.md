@@ -10,18 +10,26 @@ This network implements Single-Sided Ranging (SSR) to perform Time of Arrival. U
 
 The Time of Flight is TOF=((TX TO ACK TIME-TURNAROUND TIME))/2.
 
-![](toa1.svg)
-*Figure 6. Time of Flight (TOF) measurement.*
+<p align="center">
+	<img src="toa1.svg">
+	<br>
+	<sub><em>Figure 6. Time of Flight (TOF) measurement.</em></sub>
+</p>
 
 This only allows the transmitting node to measure the TOF. The receiving node can perform the same procedure with the roles swapped, or the transmitting node can transmit the results of the measurement back to the receiving node. A node’s location can be determined by measuring the distance to multiple reference points and solving a geometry problem. Four distance measurements are required to determine location in 3D space. Three points, which define a plane, and a fourth point non-coplanar with the other three is the minimum number of measurements required to compute location.
 
-![](toa2.svg)
-*Time of Arrival (TOA).*
+<p align="center">
+	<img src="toa2.svg">
+	<br>
+	<sub><em>Time of Arrival (TOA).</em></sub>
+</p>
 
 The above figure is a 2D example (which requires 3 distance measurements instead of 4 for 3D). In this example, node 3 wants to determine its location using TOA. Node 3 measures the distance to nodes 0, 1, and 2 which all have defined locations. Each distance measurement represents a circle (sphere in 3D) centered at the appropriate node. The intersection of the circles (spheres in 3D) is the location of node 3.
 
 ### Single-Sided vs Double-Sided Ranging
-![](ssr-dsr.svg)
+<p align="center">
+	<img src="ssr-dsr.svg">
+</p>
 
 Time of Arrival can be measured using either single-sided ranging (SSR) or double-sided ranging (DSR).
 
@@ -34,8 +42,11 @@ Therefore, SSR was chosen to implement TOA.
 ## Time Difference of Arrival (TDOA)
 TDOA works by measuring the difference in arrival times of packets instead of round trip time. Multiple TDOA measurements can be used to plot hyperbolas where the intersection is the location of the node. Note: a hyperbola is the set of all points such that the difference of distances from two fixed points (foci) is constant. Unlike TOA which requires nodes to both transmit and receive, TDOA only requires reception (or only transmission) of packets. This allows TDOA to provide location to an unlimited number of nodes in an area.
 
-![](tdoa.svg)
-*Time Difference of Arrival.*
+<p align="center">
+	<img src="tdoa.svg">
+	<br>
+	<sub><em>Time Difference of Arrival.</em></sub>
+</p>
 
 For example, suppose that node 4 in the above figure wants to measure its location. By comparing the difference in arrival times of packets transmitted by nodes 0, 1, 2, 3, node 4 can plot 2 hyperbolas to determine its location. Note: TDOA requires one more node than TOA because TDOA cannot measure the true distance to any one node. Therefore one node (in this case node 0) acts as the time reference from which differences can be computed. In 3D, hyperbolas become two sheet hyperboloids.
 
@@ -58,8 +69,11 @@ Terminology:
 
 A location slot has a different layout than the TSCH Shared slot. A location slot is divided into 7 equally spaced segments to allow for multiple beacons to take part in one slot. Beacons that transmit during a location slot are able to measure the true ranges to each other and are thus able to perform TOA. Nodes that overhear a location slot are able to use TDOA to determine their location.
 
-![](loc-slot1.svg)
-*Location slot is further divided into 7 segments.*
+<p align="center">
+	<img src="loc-slot1.svg">
+	<br>
+	<sub><em>Location slot is further divided into 7 segments.</em></sub>
+</p>
 
 Dividing the location slot into 7 was chosen to
 1.	Fit the necessary data into the maximum IEEE 802.15.4 frame size. More beacons requires larger frames (smaller frame size is better).
@@ -67,17 +81,24 @@ Dividing the location slot into 7 was chosen to
 3.	Minimize the time taken for a location update (less is better).
 4.	Match the chosen geometry of the beacons (See Geometry of Beacons).
 
-*The following is an explanation of the location slot in detail.* Suppose the nodes shown in below want to update their location. Nodes 0, 1, 2, 3, have an initial location estimate and will transmit during the location slot (they are beacons). Node 4 wants to determine its position and is not a beacon. Distances between nodes are color coded. Note that this example only deals with 3 beacons when in actuality up to 6 beacons partake in a location slot.
+<br>
+<sub><em>The following is an explanation of the location slot in detail.* Suppose the nodes shown in below want to update their location. Nodes 0, 1, 2, 3, have an initial location estimate and will transmit during the location slot (they are beacons). Node 4 wants to determine its position and is not a beacon. Distances between nodes are color coded. Note that this example only deals with 3 beacons when in actuality up to 6 beacons partake in a location slot</em></sub>
 
-![](layout.svg)
-*Example node layout. Distances are color coded.*
+<p align="center">
+	<img src="layout.svg">
+	<br>
+	<sub><em>Example node layout. Distances are color coded.</em></sub>
+</p>
 
 The objective of the location slot is to measure distances between beacons. This is achieved by measuring timestamps of received packets and sharing these timestamps with the other nodes in the slot. Timestamps are specified t_ij denoting the duration between receiving beacon i’s packet and beacon j’s packet. For example, t_24 is the time between beacon 2’s packet and node 4’s packet. The left subscript is always presented as the smaller one because t_ij should be the same as t_ji. That is, the travel time between beacon 0 and beacon 1 (t_01) should be the same as the travel time between beacon 1 and beacon 0 (t_10). Todo: t_01 and t_10 could be reported as different due to differences in clock rates between beacons. Perhaps there is a way to use this to generate more accurate timestamps?
 
 Timestamps are stored in a jagged array.
 
-![](jagged.svg)
-*Timestamp array.*
+<p align="center">
+	<img src="jagged.svg">
+	<br>
+	<sub><em>Timestamp array.</em></sub>
+</p>
 
 - Columns 1 to 5 represent timestamps between the beacons.
 - Column 6 represents the final timestamps transmitted by the prime beacon.
@@ -107,28 +128,38 @@ typedef struct __packed {
 ```
 
 ### Offset 0
-![](loc-slot-0.svg)
+<p align="center">
+	<img src="loc-slot-0.svg">
+</p>
 
 Nodes start the location slot with no state. The prime beacon, in this case node 0, transmits the first packet. This provides a starting reference timestamp for all other nodes in the location slot. This time reference will be shifted slightly for each node due to the travel time of the signal from node 0 to the other nodes.
 
 ### Offset 1
-![](loc-slot-1.svg)
+<p align="center">
+	<img src="loc-slot-1.svg">
+</p>
 
 Beacon 1 transmits next and appends the address of beacon 0 and the length of time between receiving prime beacon 0’s packet and transmitting beacon 1 (t_01). Every other node receives beacon 1’s packet and stores both t_01 and the measured timestamp when the packet was received t_1k.
 
 ### Offset 2
-![](loc-slot-2.svg)
+<p align="center">
+	<img src="loc-slot-2.svg">
+</p>
 
 Beacon 2 transmits next and appends the address of beacon 0 and t_02, and the address of beacon 1 and t_12 (t_02 is the duration between receiving the prime beacon and beacon 2 transmitting, t_12 is the duration as recorded by beacon 2 between receiving the prime beacon and receiving beacon 1). Every other node stores both t_02, t_12, and the timestamp when beacon 2 was received (t_2k). Note: beacon 1 does not necessarily need to store the timestamp t_2k.
 
 ### Offset 3
-![](loc-slot-3.svg)
+<p align="center">
+	<img src="loc-slot-3.svg">
+</p>
 
 Beacon 3 transmits next and appends addr 0 and t_03, addr 1 and t_13, and addr 2 and t_23. Every other node stores these values and the timestamp when beacon 3 was received t_3k.
 
 
 ### Offset 6
-![](loc-slot-6.svg)
+<p align="center">
+	<img src="loc-slot-6.svg">
+</p>
 
 The prime beacon transmits the final packet with its recorded addresses of the previous beacons and timestamps: t_1^', t_2^', t_3^'. The location slot is complete. The nodes and beacons must now perform corrections to the timestamps to determine actual distances. This is a summary of the location slot: at each offset, the beacon must transmit the address and recorded timestamps from all previous beacons.
 
@@ -144,7 +175,9 @@ Beacon 6 (0): addr 1 + t_1^', addr 2 + t_2^', addr 3 + t_3^', addr 4 + t_4^', ad
 Note: the above does not deal with error handling (see [Error Handling](error-handling.md)).
 
 ### Summary
-![](loc-slot-summary.svg)
+<p align="center">
+	<img src="loc-slot-summary.svg">
+</p>
 
 First, nodes need to compute the distances from the prime beacon to other beacons. Note: a convention I use is for “t” to represent uncorrected timestamps and “d” to represent actual time of flight.
 
@@ -193,8 +226,11 @@ This is the algorithm for determining which nodes become beacons. The main desig
 2.	The algorithm should run without the user’s interaction. I.E. the algorithm should be autonomous.
 3.	The algorithm should try and maintain connectivity for nodes in the network.
 
-![](mesh-optim1.svg)
-*Example mesh network. Red nodes have bootstrapped the network and define the coordinate system.*
+<p align="center">
+	<img src="mesh-optim1.svg">
+	<br>
+	<sub><em>Example mesh network. Red nodes have bootstrapped the network and define the coordinate system.</em></sub>
+</p>
 
 3D space is divided into a lattice like structure with an octahedral unit cell, ideally with a beacon at each lattice point. Note that the lattice structure is a purely virtual construct used to help organize nodes into beacons. The length of a segment in the lattice can be customized and should be sized such that each edge represents a beacon’s radio range.
 
@@ -202,13 +238,19 @@ This unit cell was chosen because
 1.	It is simple. The conversion from actual location to a lattice point is straight forward.
 2.	It facilitates expanding the mesh by providing enough neighboring beacons.
 
-![](octahedron2.svg)
-*Lattice unit cell. Beacons are ideally located at vertices.*
+<p align="center">
+	<img src="octahedron2.svg">
+	<br>
+	<sub><em>Lattice unit cell. Beacons are ideally located at vertices.</em></sub>
+</p>
 
 Beacon indices are assigned to points in the lattice. A beacon’s index is used to identify it in a node’s neighborhood and to determine when a beacon should transmit during location updates. Beacon indices are classified into 2 sheets “A” and “B” which alternate based on Z-height. Even Z levels (Z0, Z2, Z4,…) are “A” sheets and odd Z levels (Z1,Z3,Z5,…) are “B” sheets. Beacons 0, 1, 2, 3 are prime beacons.
 
-![](ab-sheets.svg)
-*Beacon index layout per sheet. Beacons are located at the center of the squares. Boxes that touch each other are within radio range.*
+<p align="center">
+	<img src="ab-sheets.svg">
+	<br>
+	<sub><em>Beacon index layout per sheet. Beacons are located at the center of the squares. Boxes that touch each other are within radio range.</em></sub>
+</p>
 
 Care needs to be taken in the assignment of beacon indices. The requirements are:
 1.	A node should not touch two beacons with the same index. If a node neighbors two beacons with the same index (meaning they transmit at the same time) then a collision will occur during location updates. This will prevent location data from being received.
@@ -218,17 +260,25 @@ The beacon numbering in the above figure, with beacons on a slight (1/3) diagona
 
 Furthermore, A and B sheets are offset from each other as the Z-height increases (this maximizes the coverage of prime beacons). Looking directly down on two sheets:
 
-![](ab-sheets-overlap.svg)
-*Sheets A and B overlaid. Notice that an offset is applied to sheet B to maximize coverage of prime beacons (0,1,2,3).*
+<p align="center">
+	<img src="ab-sheets-overlap.svg">
+	<br>
+	<sub><em>Sheets A and B overlaid. Notice that an offset is applied to sheet B to maximize coverage of prime beacons (0,1,2,3).</em></sub>
+</p>
 
 The one last implementation detail is that the beacons in each sheet swap places as sheets are layered on top of each other in order to prevent conflicts in the Z direction. That is, comparing A sheets at Z level 0 and 2: beacon 0 at Z0 becomes beacon 1 at Z2. Likewise for B sheets at Z level 1 and 3: beacon 2 at Z1 becomes beacon 3 at Z3. The full layout is show below.
 
-![](ab-sheets-full.svg)
-*Full layout of beacons. Notice swapped A and B sheets.*
+<p align="center">
+	<img src="ab-sheets-full.svg">
+	<br>
+	<sub><em>Full layout of beacons. Notice swapped A and B sheets.</em></sub>
+</p>
 
 Beacon indices are also used by beacons to report the neighborhood status to other nodes. The presence of a beacon in a node’s neighborhood is reported by setting the bit in the `nbrhood` field corresponding to that beacon’s index. For example:
 
-![](disambiguation.svg)
+<p align="center">
+	<img src="disambiguation.svg">
+</p>
 
 ```
            0         1
@@ -242,8 +292,11 @@ Beacon 19: 10001000010000010001 = 0x88211
 
 It is sometimes useful to refer to the relative position of one node to another. The relative positions are given below:
 
-![](rel-pos.svg)
-*Figure 25. Relative positions of beacons.*
+<p align="center">
+	<img src="rel-pos.svg">
+	<br>
+	<sub><em>Figure 25. Relative positions of beacons.</em></sub>
+</p>
 
 For example, the beacon in relative position 2 centered at beacon 9 is beacon 1. The relative vectors are given below. Another example: beacon 5, relative position 4 is 8.
 
@@ -271,7 +324,9 @@ static Vec3 vectors[] = {
 
 As mentioned above, a beacon’s index determines when the beacon transmits. The TSCH schedule contains a slotframe for 4 location slots. The location slot determines which prime beacon starts the slot: LOC SLOT 0 always starts with prime beacon 0, LOC SLOT 1 always starts with prime beacon 1 etc. Furthermore, to limit the total number of beacons that transmit in a location slot to 6, repeats of the location slotframe are divided into different “directions”. The directions are NE, N, NW, W, SW, S, SE, and E.
 
-![](dir.svg)
+<p align="center">
+	<img src="dir.svg">
+</p>
 
 The full order is:
 
@@ -320,11 +375,15 @@ SE, SLOT 3: 3,  15, 19, 7,  9,  8
 
 For example, if NE SLOT 0 is active, prime beacon 0 will transmit in offset 0, beacon 4 will transmit in offset 1, beacon 9 will transmit in offset 2, beacon 13 will transmit in offset 3, beacon 18 will transmit in offset 4, beacon 19 will transmit in offset 5, and prime beacon 0 will transmit last in offset 6 (implied, not explicitly listed above). The groupings, E, NE, N etc. were chosen so that eventually all interbeacon distances could be computed. The figure below shows the beacons active during the different directions around prime beacon 0.
 
-![](beacon-dir.svg)
+<p align="center">
+	<img src="beacon-dir.svg">
+</p>
 
 The relative positions was applied to other prime beacons to determine the groupings and the order:
 
-![](beacon-dir2.svg)
+<p align="center">
+	<img src="beacon-dir2.svg">
+</p>
 
 ## Computing Location Using Distances
 There are multiple algorithms which can be used to determine a node’s location. This is the decision tree:
@@ -359,7 +418,9 @@ Nodes have no location when creating a new mesh network. Therefore, a bootstrap 
 ### 2 Beacons (Line)
 Nodes then randomly try and transmit in offset 1. If acknowledged by the prime beacon, then the node is established as a beacon. This first node defines the x-axis.
 
-![](bootstrap1.svg)
+<p align="center">
+	<img src="bootstrap1.svg">
+</p>
 
 The algorithm for the location of the first node is simple:
 
@@ -372,7 +433,9 @@ z = 0;
 ### 3 Beacons (Intersection of 2 Circles)
 Nodes then randomly try and transmit in offset 2. If acknowledged by the other beacons, then the node is established as a beacon. This second node defines the y-axis.
 
-![](bootstrap2.svg)
+<p align="center">
+	<img src="bootstrap2.svg">
+</p>
 
 Two distances from two points results in 2 circles. This is the algorithm to find the point corresponding to +y:
 ```
@@ -392,7 +455,9 @@ z = 0
 ```
 
 ### 4 Beacons (Intersection of 3 Spheres)
-![](3sphere.svg)
+<p align="center">
+	<img src="3sphere.svg">
+</p>
 
 The third node that joins potentially defines the +z-axis. Three distances, in 3D space, define 3 spheres with potentially 2 intersection points (underdetermined). The intersection of 3 spheres is:
 
@@ -424,8 +489,11 @@ h = sqrt(r0^2 – l^2 – w^2)
 
 Intersection of 3 spheres is used extensively to compute location, not just during bootstrapping. Intersection of 3 spheres is used to help grow and extend the mesh network beyond the initial bootstrapping nodes. The intersection of 3 spheres produces 2 solutions. Therefore, an estimate of the final beacon index is required to disambiguate the final solution. Neighborhood information can be used to estimate what the final beacon index is, and where the relative position should be since the beacons form a regular lattice. For example:
 
-![](disambiguation.svg)
-*Example of how neighborhood information can be used to estimate a new beacon's index.*
+<p align="center">
+	<img src="disambiguation.svg">
+	<br>
+	<sub><em>Example of how neighborhood information can be used to estimate a new beacon's index.</em></sub>
+</p>
 
 Suppose a beacon is joining the network and is located near beacon index 15. The joining beacon does not have location information yet and can’t determine its beacon index. However, the joining beacon can infer its beacon index based on the local neighborhood’s connectivity. The joining node has beacons 0, 9, 19 in its local neighborhood. Based on the relative positions of 0, 9, 19, the candidates for the joining node are 13 and 15.
 
@@ -511,7 +579,9 @@ Which can be solved with QR decomposition:
 ```
 
 ### 5+ Beacons (Spring Relaxation)
-![](springs.svg)
+<p align="center">
+	<img src="springs.svg">
+</p>
 
 This is the main function used by beacons to compute location once an initial location estimate is generated. There is always noise in the distance measurements. The error compounds and causes the computed location to drift. This drift can be mitigated with some assumptions:
 
@@ -659,7 +729,10 @@ zs - e + f*d0
 ## Optimizing Beacons
 Once a node has updated its location, it checks if it should become a beacon. The beacon lattice maps location to beacon index.
 
-![](ab-sheets.svg)
+<p align="center">
+	<img src="ab-sheets.svg">
+</p>
+
 For example:
 	A node located at (0, 0, 0) should be beacon index 0.
 	A node located at (R, 0, 0) should be beacon index 4.
@@ -669,13 +742,19 @@ Note: R is a parameter setting the length of one segment in the lattice. It is a
 
 Therefore, a node can determine which beacon index it’s closest to once its location has been calculated. Nodes calculate the distance between themselves and the closest lattice point and compare that distance to the existing beacon.
 
-![](optim.svg)
-*Beacons are marked with a black dot. The beacon’s ideal location is marked with a black line.*
+<p align="center">
+	<img src="optim.svg">
+	<br>
+	<sub><em>Beacons are marked with a black dot. The beacon’s ideal location is marked with a black line.</em></sub>
+</p>
 
 A node will try to replace an existing beacon if it is closer to the lattice point than the existing beacon. It does this by starting a timer with a duration set proportional to the distance to lattice point. The new node will start transmitting beacons in the desired slot once the timer completes. Note: transmitting in the same slot causes a collision with the existing beacon which causes the existing beacon to backoff. The timer is used so that nodes closer to the lattice point will transmit sooner than nodes farther away.
 
-![](optim2.svg)
-*Two nodes located near the same ideal beacon location. The blue node is located closer to the ideal location than the black node. When trying to become beacons, the blue node starts a timer with a shorter period than the black node increasing its chances of transmitting a successful beacon packet first.*
+<p align="center">
+	<img src="optim2.svg">
+	<br>
+	<sub><em>Two nodes located near the same ideal beacon location. The blue node is located closer to the ideal location than the black node. When trying to become beacons, the blue node starts a timer with a shorter period than the black node increasing its chances of transmitting a successful beacon packet first.</em></sub>
+</p>
 
 An existing beacon will stop beaconing if it detects that a new beacon is closer to the lattice point. Hysteresis is added to prevent multiple nodes located at roughly the same distance from the ideal point from continuously transmitting beacon packets at the same time. A new beacon needs to be at least 25% closer to the lattice point than an existing beacon.
 
@@ -683,10 +762,16 @@ The whole goal of this procedure is for the nodes to automatically choose which 
 
 Here’s an example: suppose nodes are randomly distributed in an area as shown in below. The red nodes are the nodes that have bootstrapped the mesh and which have defined the coordinate system for the mesh.
 
-![](mesh-optim1.svg)
-*Example mesh network. Red nodes define the coordinate system.*
+<p align="center">
+	<img src="mesh-optim1.svg">
+	<br>
+	<sub><em>Example mesh network. Red nodes define the coordinate system.</em></sub>
+</p>
 
 Nodes closest to the lattice points are marked red in the figure below with a line drawn from the node to the lattice point. These nodes are the best candidates to be beacons.
 
-![](mesh-optim2.svg)
-*Example mesh network. Red nodes are optimized beacons.*
+<p align="center">
+	<img src="mesh-optim2.svg">
+	<br>
+	<sub><em>Example mesh network. Red nodes are optimized beacons.</em></sub>
+</p>

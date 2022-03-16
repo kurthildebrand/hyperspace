@@ -100,11 +100,15 @@ d((r0,θ0), (r1,θ1)) = arccosh(cosh(r0)*cosh(r1) - sinh(r0)*sinh(r1)*cos(θ1 - 
 
 Hyperbolic coordinates are assigned roughly based on a node's physical location. First form a graph by progressively dividing the hyperbolic plane into 60 degree sectors.
 
-![](60deg-sectors.svg)
+<p align="center">
+	<img src="60deg-sectors.svg">
+</p>
 
 Next, set the length of each connection in the graph such that equal area is assigned to each child in the graph. The length is derived from the "angle of parallelism". Suppose there is a line in the hyperbolic plane with a perpendicular line segment with length x. The "angle of parallelism" is the smallest angle from the perpendicular which meets the original line at infinity. Doubling the perpendicular to the other side of the original line means that the same angle is assigned to both sides of the perpendicular line segment (see below).
 
-![](angle-of-parallelism.svg)
+<p align="center">
+	<img src="angle-of-parallelism.svg">
+</p>
 
 Therefore, for a 60 degree sector:
 
@@ -121,7 +125,9 @@ theta  = sector / 2 = 30 degrees
 
 The resulting star graph can be copied and translated to form a larger graph.
 
-![](hyperbolic-coords3.svg)
+<p align="center">
+	<img src="hyperbolic-coords3.svg">
+</p>
 
 Next, a node quantizes its location coordinate to the beacon grid. This quantized location will be used to compute the node's hyperbolic coordinates.
 
@@ -135,17 +141,25 @@ Finally, map quantized (x,y,z) coordinates to hyperbolic (r,theta) coordinates i
 
 Note: There is a drawback with the scheme highlighted above in that there are many redundant mappings of physical (x,y,z) locations to hyperbolic (r,theta) coordinates. The method above was chosen because it was simple and seemed to work in a small test network. Whether it scales to larger networks is an open question. There may be better ways to assign hyperbolic coordinates to a node. For example, a node could take into account neighboring nodes and try and assign coordinates close to them.
 
-![](hyperbolic-coords.svg)
+<p align="center">
+	<img src="hyperbolic-coords.svg">
+</p>
 
 The picture above does not show the distortion caused by the hyperbolic plane. The graph actually looks something like the following image. (Note: the graph below plots the raw (r,theta) coordinates instead of using a model like the Poincare Disk Model or the Upper Half Plane model so distances and areas aren't accurately represented.)
 
-![](hyperbolic-coords2.svg)
+<p align="center">
+	<img src="hyperbolic-coords2.svg">
+</p>
 
 Below is an example embedding of a network. The network is shown diagramatically in the top right. Black lines mark the regions assigned to each node.
 
-![](hyperbolic-tree.svg)
+<p align="center">
+	<img src="hyperbolic-tree.svg">
+</p>
 
-![](hyperbolic-tree-regions.svg)
+<p align="center">
+	<img src="hyperbolic-tree-regions.svg">
+</p>
 
 When a packet is routed, at each hop a node checks its local neighborhood and compares the distance between the next hop and the packet's destination. The node then transmits the packet via the next hop which is closest to the destination. Distance is computed using the polar hyperbolic distance equation above.
 

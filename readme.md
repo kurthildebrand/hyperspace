@@ -40,7 +40,9 @@ The second problem is that present-day smart devices require some form of pairin
 The benefits of this mesh network are many. First, it allows rich interactions. Any smart switch can be reprogrammed to control light bulbs, outlets, appliances, etc. With existing infrastructure, the user would need to rewire a room in order to put in another switch. However, with smart switches, the user could put in a 3-way or 4-way switch with no extra cost except for the cost of the switch itself and the time required to program the new interaction in the switch.
 
 ## Introduction
-![](docs/blockdiagram.svg "Block Diagram")
+<p align="center">
+	<img src="docs/blockdiagram.svg">
+</p>
 
 This project consists of the following elements:
 
